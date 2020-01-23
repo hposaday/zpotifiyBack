@@ -19,10 +19,6 @@ Dentro de la carpeta del proyecto se encuentra un dump de la base de datos en un
 
 Para asegurarse de que todo funciono correctamente ir al navegador y entrar a "http://localhost/zpotify" y verificar que no se muestre la pagina de instalacion de drupal.
 
-<h2>CORRIENDO PROYECTO FRONT END / CLIENTE</h2>
-
-como parte de la prueba se realizó un projecto cliente para consumir los servicios que se exponen en esta API. a continuación se encuentra el link del repositorio con las instrucciones para su uso
-
 <h2> API ENDPOINTS </h2>
 
 BASE URL: http://localhost/zpotify
@@ -32,6 +28,10 @@ BASE URL: http://localhost/zpotify
 |/latest-releases       |GET   |Ultimos lanzamientos   |
 |/artist/:id            |GET   |Datos del artista      |
 |/artist/top-tracks/:id |GET   |Top tracks del artista |
+
+<h2>CORRIENDO PROYECTO FRONT END / CLIENTE</h2>
+
+como parte de la prueba se realizó un projecto cliente para consumir los servicios que se exponen en esta API. a continuación se encuentra el link del repositorio con las instrucciones para su uso
 
 
 PROYECTO FRONT: https://github.com/hposaday/-zpotifyFront
