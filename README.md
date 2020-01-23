@@ -35,4 +35,11 @@ ENDPOINT | METODO | DATOS
  /artist/top-tracks/:id  | GET | Top tracks del artista 
  --- | --- | ---
 
+|ENDPOINT               |METODO|DATOS                  |
+|-----------------------|------|-----------------------|
+|/latest-releases       |GET   |Ultimos lanzamientos   |
+|/artist/:id            |GET   |Datos del artista      |
+|/artist/top-tracks/:id |GET   |Top tracks del artista |
+
+
 PROYECTO FRONT: https://github.com/hposaday/-zpotifyFront
