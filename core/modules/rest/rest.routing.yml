@@ -1,0 +1,30 @@
+# @deprecated This route is deprecated, use the system.csrftoken route from the
+# system module instead.
+# @todo Remove this route in Drupal 9.0.0.
+rest.csrftoken:
+  path: '/rest/session/token'
+  defaults:
+    _controller: '\Drupal\system\Controller\CsrfTokenController::csrfToken'
+  requirements:
+    _access: 'TRUE'
+
+rest.getLatestReleases:
+  path: '/latest-releases'
+  defaults:
+    _controller: '\Drupal\rest\Controller\Albums::getLatestReleases'
+  requirements:
+    _access: 'TRUE'
+
+rest.getArtistData:
+  path: '/artist/{artistId}'
+  defaults:
+    _controller: '\Drupal\rest\Controller\Artists::getArtist'
+  requirements:
+    _access: 'TRUE'
+
+rest.getArtistTopTracks:
+  path: '/artist/top-tracks/{artistId}'
+  defaults:
+    _controller: '\Drupal\rest\Controller\Artists::getArtistTopTracks'
+  requirements:
+    _access: 'TRUE'
