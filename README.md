@@ -27,10 +27,9 @@ como parte de la prueba se realizó un projecto cliente para consumir los servic
 
 BASE URL: http://localhost/zpotify
 
-ENDPOINT | /latest-releases | /artist/:id | /artist/top-tracks/:id 
---- | --- | --- | ---
-METODO | GET | GET | GET 
---- | --- | --- | --- |---
-DATOS | Ultimos lanzamientos | Datos del artista | Top tracks del artista 
+ENDPOINT | METODO | DATOS  
+ /latest-releases | GET | Ultimos lanzamientos
+ /artist/:id | GET |  Datos del artista
+ /artist/top-tracks/:id  | GET | Top tracks del artista 
 
 PROYECTO FRONT: https://github.com/hposaday/-zpotifyFront
